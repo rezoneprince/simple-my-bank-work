@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Baap Er Bank</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-5xl text-center my-5">Functional <span class="text-info fs-2 fw-bold">My Bank</span><span class="text-success">!</span><span class="text-danger">!</span>!</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="bg-primary m-5 text-light px-3 py-3 rounded">
+                        <h2 class="fs-1">Deposit</h2>
+                        <h3>$ <span class="fs-2" id="deposit-total">00</span></h3>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4">
+                    <div class="bg-secondary m-5 text-light px-3 py-3 rounded">
+                        <h2 class="fs-1">Withdraw</h2>
+                        <h3>$ <span class="fs-2" id="withdraw-total">00</span></h3>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4">
+                    <div class="bg-warning m-5 text-light px-3 py-3 rounded">
+                        <h2 class="fs-1">Balance</h2>
+                        <h3>$ <span class="fs-2" id="balance-total">1240</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="bg-success m-5 text-light px-3 py-3 rounded">
+                        <h2 class="fs-2">Deposit</h2>
+                        <input id="deposit-field" type="text" class="form-control mb-3" placeholder="$ Amount You Want To Deposit">
+                        <button id="btn-deposit" class="btn btn-light" type="button">Deposit</button>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <div class="bg-info m-5 text-light px-3 py-3 rounded">
+                        <h2 class="fs-2">Withdraw</h2>
+                        <input id="withdraw-field" type="text" class="form-control mb-3" placeholder="$ Amount You Want To Withdraw">
+                        <button id="btn-withdraw" class="btn btn-light" type="button">Withdraw</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+</body>
+
+</html>
